@@ -15,7 +15,7 @@ let x = 100;
 let y = 100;
 
 // Point
-let point = 25;
+let point = 98;
 
 // ------------------
 // Flyt firkant
@@ -59,7 +59,7 @@ tegnFirkant();
 setInterval(function() {
     flytFirkant();
     tegnFirkant();
-}, 1000);
+}, 1000 * 25 / point); // Jo flere point, jo hurtigere flytter firkanten sig
 
 // ------------------
 // Klik på canvas
