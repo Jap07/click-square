@@ -59,7 +59,7 @@ tegnFirkant();
 setInterval(function() {
     flytFirkant();
     tegnFirkant();
-}, 1000);
+}, 10);
 
 // ------------------
 // Klik på canvas
